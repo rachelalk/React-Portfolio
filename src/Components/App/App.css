@@ -1,0 +1,234 @@
+/* || Reset CSS styling */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Imprima&display=swap");
+
+/* || Set root styling */
+:root {
+	--navbar-background: #320e3b;
+	--navbar-text: #fdf0d5;
+	--contactbar-background: #546a76;
+	--main-text: black;
+	--headings: #e36588;
+	--text-font: "Imprima", sans-serif;
+	--border-color: #e36588;
+}
+
+.body {
+	font-family: var(--text-font);
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	color: var(--main-text);
+}
+
+/* || Landing page main elements formatting */
+
+.heading {
+	padding-top: 40px;
+	font-size: 60px;
+	font-weight: normal;
+	color: var(--headings);
+	font-family: var(--text-font);
+}
+
+.landingInfo {
+	display: flex;
+	width: 100vw;
+	height: 90px;
+	flex-direction: column;
+	margin-top: 80px;
+	align-items: center;
+	gap: 30px;
+}
+
+.rachel-pic {
+	padding-top: 10px;
+}
+
+#rachel-pic {
+	max-height: 10vw;
+	width: auto;
+	border-radius: 3px;
+	border: solid;
+	border-color: var(--border-color);
+	border-radius: 50%;
+}
+
+#landingP {
+	width: 30vw;
+	text-align: center;
+}
+
+.techstack {
+	display: flex;
+	flex-direction: row;
+}
+
+#nodejs {
+	height: 80px;
+	padding-left: 20px;
+	padding-right: 15px;
+}
+
+#jest,
+#cypress,
+#react {
+	height: 80px;
+	padding-left: 15px;
+}
+
+#sql,
+#htmlcssjs {
+	height: 80px;
+}
+
+/* || End of landing page main elements formatting */
+
+/* || General formatting for experience, cats, interests and portfolio
+Do not add margin to main area - contains footer */
+
+.main-area {
+	margin-top: 40px;
+	height: auto;
+}
+
+.heading-margin {
+	margin-left: 10px;
+	padding-top: 80px;
+	font-size: 60px;
+	font-weight: normal;
+	color: var(--headings);
+	font-family: var(--text-font);
+}
+
+/* || End of general formatting for experience, cats, interests and portfolio formatting */
+
+/* || Setting up carousel in portfolio page */
+.carousel {
+	display: flex;
+	background-color: aqua;
+	width: 80vw;
+	height: 90vh;
+}
+
+/* || End of carousel in portfolio */
+
+/* || Top Nav Bar */
+.top-nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: var(--navbar-background);
+	width: 100vw;
+	height: 70px;
+	position: fixed;
+	top: 0px;
+}
+
+#soc-logo {
+	height: 50px;
+	width: auto;
+}
+
+.nav-left,
+.nav-right {
+	display: flex;
+	flex-direction: row;
+	color: var(--navbar-text);
+	justify-content: center;
+	align-items: center;
+	font-family: var(--text-font);
+	gap: 15px;
+}
+
+.nav-right a:link {
+	color: var(--navbar-text);
+	text-decoration: none;
+}
+
+.nav-right a:visited {
+	color: var(--navbar-text);
+	text-decoration: none;
+}
+
+#cats {
+	margin-right: 10px;
+}
+
+.nav-left a:link {
+	color: var(--navbar-text);
+	text-decoration: none;
+}
+
+.nav-left a:visited {
+	color: var(--navbar-text);
+	text-decoration: none;
+}
+
+/* || Bottom contact bar */
+
+.footer-fixed {
+	display: flex;
+	flex-direction: row;
+	background-color: var(--contactbar-background);
+	width: 100vw;
+	height: 70px;
+	position: fixed;
+	bottom: 0;
+	justify-content: space-between;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	background-color: var(--contactbar-background);
+	width: 100vw;
+	height: 70px;
+	bottom: 0;
+	justify-content: space-between;
+}
+
+.bottom-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+#email-container #email-icon {
+	display: flex;
+	max-height: 40px;
+	width: auto;
+}
+
+#twitter-container #twitter-icon {
+	display: flex;
+	height: 50px;
+	width: auto;
+	padding-left: 15px;
+}
+
+#github-container #github-icon {
+	display: flex;
+	height: 70px;
+	width: auto;
+	padding: -10px;
+}
+
+#linkedin-container #linkedin-icon {
+	display: flex;
+	height: 55px;
+	width: auto;
+}
