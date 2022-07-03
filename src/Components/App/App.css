@@ -36,6 +36,8 @@
 	font-family: var(--text-font);
 }
 
+
+
 .landingInfo {
 	display: flex;
 	width: 100vw;
@@ -109,11 +111,24 @@ Do not add margin to main area - contains footer */
 /* || End of general formatting for experience, cats, interests and portfolio formatting */
 
 /* || Setting up carousel in portfolio page */
-.carousel {
+.swiper {
+  width: 80vw;;
+  height: 60vh;
+}
+
+.carousel-slide {
 	display: flex;
-	background-color: aqua;
-	width: 80vw;
-	height: 90vh;
+	flex-direction: column;
+	max-height: 75vw;
+	max-width: 27vh;
+	text-align: center;
+	font-family: var(--text-font);
+}
+
+.carousel-image {
+	height: 60vh;
+	width: 27vw;
+	object-fit: cover;
 }
 
 /* || End of carousel in portfolio */
@@ -143,6 +158,14 @@ Do not add margin to main area - contains footer */
 	align-items: center;
 	font-family: var(--text-font);
 	gap: 15px;
+}
+
+.subheading-centre,
+.subheading-centre a:link,
+.subheading-centre a:visited {
+	font-family: var(--text-font);
+	text-align: center;
+	text-decoration: none;
 }
 
 .nav-right a:link {
