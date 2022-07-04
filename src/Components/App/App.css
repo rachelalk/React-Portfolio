@@ -49,8 +49,6 @@
 	font-family: var(--text-font);
 }
 
-
-
 .landingInfo {
 	display: flex;
 	width: 100vw;
@@ -58,11 +56,12 @@
 	flex-direction: column;
 	margin-top: 80px;
 	align-items: center;
-	gap: 30px;
+	gap: 20px;
+	margin-bottom: 10px;
 }
 
 .rachel-pic {
-	padding-top: 10px;
+	padding-top: 3px;
 }
 
 #rachel-pic {
@@ -75,7 +74,7 @@
 }
 
 #landingP {
-	width: 30vw;
+	width: 35vw;
 	text-align: center;
 }
 
@@ -85,7 +84,7 @@
 }
 
 #nodejs {
-	height: 80px;
+	max-height: 80px;
 	padding-left: 20px;
 	padding-right: 15px;
 }
@@ -93,13 +92,13 @@
 #jest,
 #cypress,
 #react {
-	height: 80px;
+	max-height: 80px;
 	padding-left: 15px;
 }
 
 #sql,
 #htmlcssjs {
-	height: 80px;
+	max-height: 80px;
 }
 
 /* || End of landing page main elements formatting */
@@ -125,8 +124,8 @@ Do not add margin to main area - contains footer */
 
 /* || Setting up carousel in portfolio page */
 .swiper {
-  width: 86vw;;
-  height: 70vh;
+	width: 86vw;
+	height: 70vh;
 }
 
 .carousel-slide {
@@ -196,7 +195,6 @@ Do not add margin to main area - contains footer */
 	gap: 15px;
 }
 
-
 .nav-right a:link {
 	color: var(--navbar-text);
 	text-decoration: none;
@@ -242,7 +240,6 @@ Do not add margin to main area - contains footer */
 	width: 100vw;
 	height: 70px;
 	justify-content: space-between;
-	position: absolute;
 	bottom: 0;
 	z-index: 8;
 }

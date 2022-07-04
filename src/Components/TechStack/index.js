@@ -35,7 +35,7 @@ export default function TechStack() {
 
  
 	return (
-		<div>
+		<div className="tech-stack">
 			{techStackData.map((object) => (
 				<img
 					key={object.id}

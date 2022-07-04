@@ -13,7 +13,7 @@ export default function App() {
 				<MainNavBar></MainNavBar>
 				<RachelInfo></RachelInfo>
 			</div>
-			<FooterMoves></FooterMoves>
+			<Footer></Footer>
 		</div>
 	);
 }
