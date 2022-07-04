@@ -171,6 +171,7 @@ Do not add margin to main area - contains footer */
 	height: 70px;
 	position: fixed;
 	top: 0px;
+	z-index: 9;
 }
 
 #soc-logo {
