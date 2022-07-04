@@ -26,6 +26,14 @@
 	color: var(--main-text);
 }
 
+.coming-soon {
+	color: var(--headings);
+	margin: auto;
+	text-align: center;
+	font-family: var(--text-font);
+	font-size: 150px;
+}
+
 /* || Landing page main elements formatting */
 
 .heading {
@@ -126,7 +134,7 @@ Do not add margin to main area - contains footer */
 }
 
 .carousel-image {
-	height: 50vh;
+	height: 55vh;
 	width: 27vw;
 	object-fit: cover;
 }
@@ -147,7 +155,7 @@ Do not add margin to main area - contains footer */
 .carousel-description {
 	text-align: center;
 	width: 27vw;
-	height: 9vh;
+	height: 10vh;
 	background-color: var(--navbar-text);
 }
 

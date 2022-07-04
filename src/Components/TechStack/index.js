@@ -4,12 +4,12 @@ export default function TechStack() {
 			{
 				id: "htmlcssjs",
 				alt: "html5 CSS JavaScript",
-				src: "./Images/html css js logos.png",
+				src: "./Images/htmlCssJsLogos.png",
 			},
 			{
 				id: "nodejs",
 				alt: "node JS",
-				src: "./Images/node js.png",
+				src: "./Images/nodeJs.png",
 			},
 			{
 				id: "sql",

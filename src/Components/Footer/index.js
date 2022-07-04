@@ -5,7 +5,7 @@ export default function Footer() {
 				<a href="https://www.schoolofcode.co.uk">
 					<img
 						id="soc-logo"
-						src="./Images/soc-logo.png"
+						src="./Images/socLogo.png"
 						alt="School of Code Logo"
 					/>
 				</a>

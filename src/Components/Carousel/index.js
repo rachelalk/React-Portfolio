@@ -21,12 +21,12 @@ export default function Carousel() {
 		>
 			<SwiperSlide>
 				<div className="carousel-slide">
-					<h2 className="carousel-header">Giraffe Support - Week 9 Project</h2>
+					<h2 className="carousel-header">Giraffe Support - Full stack application</h2>
 					<a href="https://github.com/rachelalk/Frontend---Giraffe-Support-Ticketing-System/blob/main/README.md">
 						<img
 							className="carousel-image"
 							id="giraffeSupportImage"
-							src="./Images/giraffe support.png"
+							src="./Images/giraffeSupport.png"
 							alt="Giraffe Support"
 						/>
 					</a>
@@ -47,7 +47,7 @@ export default function Carousel() {
 						<img
 							className="carousel-image"
 							id="catApiImage"
-							src="./Images/Cat API.png"
+							src="./Images/CatAPI.png"
 							alt="Cat API"
 						/>
 					</a>
@@ -66,43 +66,35 @@ export default function Carousel() {
 						<img
 							className="carousel-image"
 							id="booksApiImage"
-							src="./Images/books API.png"
+							src="./Images/booksAPI.png"
 							alt="Books API"
 						/>
 					</a>
 					<p className="carousel-description">
-						Solo project, completed in an afternoon following week 8 in order to practice skills learnt throughout the week.
+						Solo project, completed in an afternoon following week 8 in order to
+						practice skills learnt throughout the week.
 					</p>
 				</div>
 			</SwiperSlide>
 			<SwiperSlide>
-				{" "}
 				<div className="carousel-slide">
-					<h2>Pokemon API</h2>
-					<a href="https://github.com/rachelalk/Pokemon-API">
+					<h2 className="carousel-header">To Do List - React</h2>
+					<a href="https://github.com/rachelalk/React-To-Do-List">
 						<img
 							className="carousel-image"
-							id="pokemonApiImage"
-							src="./Images/Pokemon.png"
-							alt="Pokemon API"
+							id="toDoListImage"
+							src="./Images/toDoList.png"
+							alt="To do list"
 						/>
 					</a>
+					<p className="carousel-description">
+						Week 7 hackathon. This was our first project with react. We had some
+						trouble with this during the hackathon and didn't manage to get
+						things working so I went back to it the following day and completed
+						the task. Please see the read me on my github for full details.
+					</p>
 				</div>
 			</SwiperSlide>
-			{/* <SwiperSlide>
-				{" "}
-				<div className="carousel-slide">
-					<h2>Pokemon API</h2>
-					<a href="https://github.com/rachelalk/Pokemon-API">
-						<img
-							className="carousel-image"
-							id="pokemonApiImage"
-							src="./Images/Pokemon.png"
-							alt="Pokemon API"
-						/>
-					</a>
-				</div>
-			</SwiperSlide> */}
 			...
 		</Swiper>
 	);
