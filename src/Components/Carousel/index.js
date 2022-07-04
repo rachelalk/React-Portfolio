@@ -40,6 +40,24 @@ export default function Carousel() {
 				</div>
 			</SwiperSlide>
 			<SwiperSlide>
+				<div className="carousel-slide">
+					<h2 className="carousel-header">Authentication using Auth0</h2>
+					<a href="https://github.com/rachelalk/Auth0">
+						<img
+							className="carousel-image"
+							id="Auth0"
+							src="./Images/Auth0.png"
+							alt="Auth0 authentication"
+						/>
+					</a>
+					<p className="carousel-description">
+						Week 10 hackathon. We were tasked with using the docs to figure out
+						how to use Auth0 for both front and back end and then use it in a
+						simple app.
+					</p>
+				</div>
+			</SwiperSlide>
+			<SwiperSlide>
 				{" "}
 				<div className="carousel-slide">
 					<h2 className="carousel-header">Cat API - React</h2>
@@ -92,6 +110,24 @@ export default function Carousel() {
 						trouble with this during the hackathon and didn't manage to get
 						things working so I went back to it the following day and completed
 						the task. Please see the read me on my github for full details.
+					</p>
+				</div>
+			</SwiperSlide>
+			<SwiperSlide>
+				<div className="carousel-slide">
+					<h2 className="carousel-header">Personality Quiz - UseReducer</h2>
+					<a href="https://github.com/rachelalk/useReducer-Buffy-Personality-Quiz">
+						<img
+							className="carousel-image"
+							id="buffyPersonalityQuiz"
+							src="./Images/buffy.png"
+							alt="Buffy personality quiz"
+						/>
+					</a>
+					<p className="carousel-description">
+						During week 8 we were introduced to useReducer and were tasked with
+						refactoring code into a useReducer and then to create a personality
+						quiz of our choice and style it within react.
 					</p>
 				</div>
 			</SwiperSlide>
