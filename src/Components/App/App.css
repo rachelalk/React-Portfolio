@@ -112,8 +112,8 @@ Do not add margin to main area - contains footer */
 
 /* || Setting up carousel in portfolio page */
 .swiper {
-  width: 80vw;;
-  height: 60vh;
+  width: 86vw;;
+  height: 64vh;
 }
 
 .carousel-slide {
@@ -126,9 +126,29 @@ Do not add margin to main area - contains footer */
 }
 
 .carousel-image {
-	height: 60vh;
+	height: 50vh;
 	width: 27vw;
 	object-fit: cover;
+}
+
+.subheading-centre,
+.subheading-centre a:link,
+.subheading-centre a:visited {
+	font-family: var(--text-font);
+	text-align: center;
+	text-decoration: none;
+	color: var(--main-text);
+}
+
+.carousel-header {
+	width: 27vw;
+}
+
+.carousel-description {
+	text-align: center;
+	width: 27vw;
+	height: 9vh;
+	background-color: var(--navbar-text);
 }
 
 /* || End of carousel in portfolio */
@@ -160,13 +180,6 @@ Do not add margin to main area - contains footer */
 	gap: 15px;
 }
 
-.subheading-centre,
-.subheading-centre a:link,
-.subheading-centre a:visited {
-	font-family: var(--text-font);
-	text-align: center;
-	text-decoration: none;
-}
 
 .nav-right a:link {
 	color: var(--navbar-text);

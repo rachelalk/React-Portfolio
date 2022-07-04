@@ -2,6 +2,8 @@ import MainNavBar from "../MainNavBar";
 import Footer from "../Footer";
 import Carousel from "../Carousel"
 
+
+
 export default function Portfolio() {
 	return (
 		<main>
@@ -10,7 +12,7 @@ export default function Portfolio() {
 			<Carousel></Carousel>
 			<br></br>
 			<h2 className="subheading-centre">
-				View my full portfolio on <a href="https://github.com/rachelalk">Github</a>.
+				Full portfolio available on <a href="https://github.com/rachelalk">Github</a>.
 			</h2>
 			<Footer></Footer>
 		</main>

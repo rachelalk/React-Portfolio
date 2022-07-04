@@ -5,7 +5,7 @@ export default function Experience() {
 	return (
 		<main>
 			<MainNavBar></MainNavBar>
-			<h1 class="heading-margin">Experience</h1>
+			<h1 class="heading-margin">Prior Experience</h1>
 			<Footer></Footer>
 		</main>
 	);
