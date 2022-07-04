@@ -24,6 +24,11 @@
 	flex-direction: column;
 	width: 100%;
 	color: var(--main-text);
+	min-height: 100vh;
+}
+
+.content-wrap {
+	padding-bottom: 70px;
 }
 
 .coming-soon {
@@ -146,6 +151,7 @@ Do not add margin to main area - contains footer */
 	text-align: center;
 	text-decoration: none;
 	color: var(--main-text);
+	font-size: 4vh;
 }
 
 .carousel-header {
@@ -226,6 +232,7 @@ Do not add margin to main area - contains footer */
 	position: fixed;
 	bottom: 0;
 	justify-content: space-between;
+	z-index: 8;
 }
 
 .footer {
@@ -234,8 +241,10 @@ Do not add margin to main area - contains footer */
 	background-color: var(--contactbar-background);
 	width: 100vw;
 	height: 70px;
-	bottom: 0;
 	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
 }
 
 .bottom-left {

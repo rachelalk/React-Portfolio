@@ -9,8 +9,10 @@ import FooterMoves from "../FooterMoves";
 export default function App() {
 	return (
 		<div className="body">
-			<MainNavBar></MainNavBar>
-			<RachelInfo></RachelInfo>
+			<div className="content-wrap">
+				<MainNavBar></MainNavBar>
+				<RachelInfo></RachelInfo>
+			</div>
 			<FooterMoves></FooterMoves>
 		</div>
 	);

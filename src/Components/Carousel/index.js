@@ -21,7 +21,7 @@ export default function Carousel() {
 		>
 			<SwiperSlide>
 				<div className="carousel-slide">
-					<h2 className="carousel-header">Giraffe Support - Full stack application</h2>
+					<h2 className="carousel-header">Giraffe Support - Full stack app</h2>
 					<a href="https://github.com/rachelalk/Frontend---Giraffe-Support-Ticketing-System/blob/main/README.md">
 						<img
 							className="carousel-image"
