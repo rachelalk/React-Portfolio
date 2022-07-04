@@ -1,6 +1,7 @@
 import MainNavBar from "../MainNavBar";
 import Footer from "../Footer";
 import Carousel from "../Carousel"
+import FooterMoves from "../FooterMoves";
 
 
 
@@ -11,10 +12,14 @@ export default function Portfolio() {
 			<h1 class="heading-margin">Portfolio</h1>
 			<Carousel></Carousel>
 			<br></br>
+			<br></br>
 			<h2 className="subheading-centre">
-				Full portfolio available on <a href="https://github.com/rachelalk">Github</a>.
+				Full portfolio available on{" "}
+				<a href="https://github.com/rachelalk">Github</a>.
 			</h2>
-			<Footer></Footer>
+			<br></br>
+			<br></br>
+			<FooterMoves></FooterMoves>
 		</main>
 	);
 }
