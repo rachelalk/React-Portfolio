@@ -156,6 +156,7 @@ Do not add margin to main area - contains footer */
 
 .carousel-header {
 	width: 27vw;
+	font-family: var(--text-font);
 }
 
 .carousel-description {
@@ -164,10 +165,10 @@ Do not add margin to main area - contains footer */
 	width: 27vw;
 	height: 15vh;
 	background-color: var(--navbar-text);
+	font-family: var(--text-font);
 }
 
 /* || End of carousel in portfolio */
-
 
 /* || Start of image hover over component */
 .hover-over-container {
@@ -189,38 +190,38 @@ Do not add margin to main area - contains footer */
 figure {
 	display: flex;
 	flex-wrap: wrap;
-	object-fit: cover; 
+	object-fit: cover;
 	object-position: 100% 20;
-  position: relative;
-  display: inline-block;
-  margin: 0;
-  width: 30vw;
-  height: 30vh;
-  background-color: var(--hover-over-background);
-  font-family: var(--text-font);
-  overflow: hidden;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	width: 30vw;
+	height: 30vh;
+	background-color: var(--hover-over-background);
+	font-family: var(--text-font);
+	overflow: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 
 figure > img {
-  vertical-align: top;
-  max-width: 100%;
+	vertical-align: top;
+	max-width: 100%;
 }
 
 figure figcaption {
 	font-family: var(--text-font);
-  background-color: var(--hover-over-background);
-  color: var(--main-text);
-  padding: 30px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+	background-color: var(--hover-over-background);
+	color: var(--main-text);
+	padding: 30px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 
 figure,
@@ -229,29 +230,28 @@ figure:after,
 figure *,
 figure *:before,
 figure *:after {
-  box-sizing: border-box;
-  transition: all 0.35s ease;
+	box-sizing: border-box;
+	transition: all 0.35s ease;
 }
 
 /** push **/
 figure:hover figcaption {
-  -webkit-transform: translate(0, 0);
-  transform: translate(0, 0);
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
 }
 
 /** push-up **/
 figure figcaption {
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
 }
 
 figure:hover > img {
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
 }
 
 /* || End of image hover over component */
-
 
 /* || Top Nav Bar */
 .top-nav {
