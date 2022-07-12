@@ -55,8 +55,8 @@ export default function Portfolio() {
 	];
 	return (
 		<main>
-			<MainNavBar></MainNavBar>
-			<h1 class="heading-margin">Portfolio</h1>
+
+			<h1 className="heading-margin">Portfolio</h1>
 			<Carousel array={portfolioData}></Carousel>
 			<br></br>
 			<br></br>
@@ -66,7 +66,7 @@ export default function Portfolio() {
 			</h2>
 			<br></br>
 			<br></br>
-			<FooterMoves></FooterMoves>
+
 		</main>
 	);
 }

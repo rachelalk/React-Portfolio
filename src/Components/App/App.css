@@ -25,11 +25,8 @@
 	flex-direction: column;
 	width: 100%;
 	color: var(--main-text);
-	min-height: 100vh;
-}
-
-.content-wrap {
-	padding-bottom: 70px;
+	height: 100%;
+	justify-content: space-between;
 }
 
 .coming-soon {
@@ -53,7 +50,7 @@
 .landingInfo {
 	display: flex;
 	width: 100vw;
-	height: 90px;
+	height: 90%;
 	flex-direction: column;
 	margin-top: 80px;
 	align-items: center;
@@ -85,7 +82,7 @@
 }
 
 #nodejs {
-	max-height: 80px;
+	max-height: 8vh;
 	padding-left: 20px;
 	padding-right: 15px;
 }
@@ -93,13 +90,13 @@
 #jest,
 #cypress,
 #react {
-	max-height: 80px;
+	max-height: 8vh;
 	padding-left: 15px;
 }
 
 #sql,
 #htmlcssjs {
-	max-height: 80px;
+	max-height: 8vh;
 }
 
 /* || End of landing page main elements formatting */
@@ -193,11 +190,11 @@ figure {
 	object-fit: cover;
 	object-position: 100% 20;
 	position: relative;
-	display: inline-block;
+	/* display: inline-block; */
 	margin: 0;
 	width: 30vw;
 	height: 30vh;
-	background-color: var(--hover-over-background);
+	background-color: white;
 	font-family: var(--text-font);
 	overflow: hidden;
 	-webkit-backface-visibility: hidden;
