@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-export default function Carousel({array}) {
+export default function PortfolioCarousel({array}) {
 	return (
 		<Swiper
 			modules={[Navigation, Pagination, Scrollbar, A11y]}
