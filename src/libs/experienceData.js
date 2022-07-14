@@ -9,7 +9,7 @@ const experienceData = [
 		years: "September 2018 - February 2022",
 		role: "Primary School Teacher",
 		src: "./Images/teacher.webp",
-		text: "During my time as a teacher I worked in all of the primary year groups in many different schools across Manchester taking both long term and short term roles. I was responsible for planning for and teaching a class of children with a range of abilities, from different backgrounds with different needs. Ensuring that SEND needs are met and special arrangements are put in place where necessary. I built and maintained relationships with children, families, outside services and other members of staff, hosted parents evenings and many other things.",
+		text: "During my time as a primary school teacher I worked in every year group in a variety of schools across Manchester, taking both long and short term roles. I was responsible for lesson planning and teaching children with a range of abilities, from different backgrounds, with different needs. I built and maintained relationships with children, families, outside services, other members of staff and hosted parents evenings.",
 	},
 	{
 		years: "September 2017 - June 2018",
@@ -24,7 +24,7 @@ const experienceData = [
 		text: "Whilst working as a Supervisor I was managed the call centre team on behalf of the call centre manager and dealt with client requests on behalf of the account managers. As a customer service representative I used my problem solving and people skills to handle and resolve customer queries and complaints over the phone, face to face and via email. I was also responsible for training new members of staff.",
 	},
 	{
-		years: "April 2022 - August 2022",
+		years: "October 2013 - February 2014",
 		role: "Call Center Representative at Ticketline",
 		src: "./Images/ticketlineLogo.png",
 		text: "This was my initial position at Ticketline and I was promoted into Customer Services and made a Supervisor within a short time. Whilst in this role I answered customer calls and sold tickets to a range of events over the phone",
