@@ -5,13 +5,13 @@ export default function MainNavBar() {
 		<nav className="top-nav">
 			<div className="nav-left">
 				<div className="soc-logo">
-					<a href="https://www.schoolofcode.co.uk/">
+				
 						<img
-							id="soc-logo"
-							src="./Images/socLogo.png"
-							alt="School of Code Logo"
+							id="ra-logo"
+							src="./Images/raLogo.png"
+							alt="RA logo"
 						/>
-					</a>
+					
 				</div>
 				<Link to="/">Home</Link>
 			</div>
