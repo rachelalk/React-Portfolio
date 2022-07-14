@@ -35,7 +35,7 @@ export default function FooterMoves() {
 				</div>
 
 				<div id="linkedin-container">
-					<a href="https://www.linkedin.com/in/rachel-alker-960aa122a/">
+					<a href="https://www.linkedin.com/in/rachel-alker/">
 						<img
 							id="linkedin-icon"
 							src="./Images/LinkedIn.png"
