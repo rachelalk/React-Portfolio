@@ -45,7 +45,7 @@ const experienceData = [
 		years: "July 2011 - September 2012",
 		role: "Volunteer at The Society For Abandoned Animals",
 		src: "./Images/saaLogo.png",
-		text: "I volunteered at the animal shelter mainly working with the cats, cleaning out the pens, feeding them, administering medication and socialising with them. When visitors came see the animals I would discuss their temperament and suggest which cats would be best suited to their needs. I was also responsible for reporting anything abnormal about each animal's behaviour or if they appeared ill.",
+		text: "Whilst at university, I volunteered at the Society for Abandoned Animals, working with the cats. This involved cleaning pens, feeding the cats, administering medication and socialisation. I assisted visitors and suggested cats that they might be interested in based off the information provided. I was also responsible for reporting any changes to each cat's behaviour and looked for signs of illness.",
 	},
 	{
 		years: "September 2010 - June 2013",
