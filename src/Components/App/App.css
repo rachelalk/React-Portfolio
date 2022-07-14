@@ -86,10 +86,11 @@
 .tech-stack {
 	display: flex;
 	flex-wrap: wrap;
-	width: 50vw;
+	width: 55vw;
 	height: auto;
 	flex-direction: row;
 	gap: 1%;
+	justify-content: center;
 }
 
 #nodejs {
