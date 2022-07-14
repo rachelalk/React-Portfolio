@@ -17,6 +17,10 @@
 	--headings: #e36588;
 	--text-font: "Imprima", sans-serif;
 	--border-color: #e36588;
+	--experience-border-left: #e36588;
+	--experience-border-top: #320e3b;
+	--button-background: #e36588;
+	--button-text-color: #320e3b;
 }
 
 .body {
@@ -138,10 +142,28 @@ Do not add margin to main area - contains footer */
 	font-family: var(--text-font);
 }
 
-.carousel-image {
-	height: 50vh;
+.carousel-portfolio {
+	height: 60vh;
 	width: 27vw;
 	object-fit: cover;
+}
+
+.github-portfolio,
+.github-portfolio a:link ,
+.github-portfolio a:visited {
+	display: flex;
+	padding: 0.5vh;
+	border-radius: 4px;
+	width: 12vw;
+	justify-content: center;
+	background-color: var(--button-background);
+	color: var(--button-text-color);
+	text-decoration: none;
+
+}
+
+.portfolio-text {
+	margin-bottom: 1vh;
 }
 
 .cat-carousel-image {
@@ -169,10 +191,10 @@ Do not add margin to main area - contains footer */
 	display: flex;
 	text-align: center;
 	width: 27vw;
-	height: 15vh;
+	height: 16vh;
 	background-color: var(--navbar-text);
 	font-family: var(--text-font);
-	font-size: 2vh;
+	font-size: 1.7vh;
 }
 
 /* || End of carousel in portfolio */
@@ -257,6 +279,44 @@ figure:hover > img {
 	transform: translateY(-100%);
 }
 
+.experience-hover-over-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 2vh;
+}
+
+.experience-hover-over-item {
+	display: flex;
+	flex-direction: columnn;
+
+}
+
+.experience-main-display {
+	border-left: solid;
+	border-left-color:var(--experience-border-left);
+	border-top: solid;
+	border-top-color:var(--experience-border-top);
+	border-width:0.5vw;
+	width: 30vw;
+	height: 30vh;
+	padding: 1vw;
+	margin: 1.3vw;
+	min-height: 100%;
+}
+
+.experience-image {
+	display: flex;
+	height: 12vh;
+	margin: auto;
+	margin-top: 1.5vh;
+	align-self: center;
+}
+
+.experience-text {
+	font-size: 2.1vh;
+}
+
 /* || End of image hover over component */
 
 /* || Top Nav Bar */
@@ -329,7 +389,7 @@ figure:hover > img {
 	display: flex;
 	flex-direction: row;
 	background-color: var(--contactbar-background);
-	width: 100%;
+	width: 100;
 	height: 70px;
 	justify-content: space-between;
 	bottom: 0;
@@ -413,12 +473,14 @@ figure:hover > img {
 
 .cats-container {
 	display: flex;
+	width: 100%;
 	flex-direction: row;
 	justify-content: space-evenly;
 }
 
 .cat-carousel-container {
 margin: 2vw;
+width: 90vw;
 }
 
 /* || End of Cats page styling */

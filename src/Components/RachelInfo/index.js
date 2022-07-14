@@ -8,7 +8,7 @@ export default function RachelInfo() {
 				Hello, I’m Rachel! 👋🏻
 				<br></br> I’m based in Manchester and am currently a student at the
 				School of Code. <br></br>
-				<br></br>Before enrolling the School of Code I was a primary school
+				<br></br>Before enrolling at the School of Code I was a primary school
 				teacher. I'm now looking forward to making use of my transferrable
 				skills and everything that I have learnt during my time at the School of
 				Code to secure my first role in tech.<br></br>

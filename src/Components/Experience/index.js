@@ -1,14 +1,12 @@
-import Footer from "../Footer";
-import MainNavBar from "../MainNavBar";
+import ExperienceHoverOver from "../ExperienceHoverOver";
+import experienceData from "../../libs/experienceData";
 
 export default function Experience() {
 	return (
 		<main>
 
 			<h1 className="heading-margin">Prior Experience</h1>
-
-			<h1 className="coming-soon">Coming soon...</h1>
-
+<ExperienceHoverOver array={experienceData}></ExperienceHoverOver>
 		</main>
 	);
 }
