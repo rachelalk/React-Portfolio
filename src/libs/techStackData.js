@@ -5,15 +5,21 @@ const techStackData = [
 		src: "./Images/htmlCssJsLogos.png",
 	},
 	{
-		id: "nodejs",
-		alt: "node JS",
-		src: "./Images/nodeJs.png",
+		id: "typescript",
+		alt: "typescript",
+		src: "./Images/typescript.png",
 	},
 	{
 		id: "sql",
 		alt: "postgreSQL",
 		src: "./Images/sql.png",
 	},
+	{
+		id: "nodejs",
+		alt: "node JS",
+		src: "./Images/nodeJs.png",
+	},
+
 	{
 		id: "jest",
 		alt: "jest",
@@ -28,6 +34,36 @@ const techStackData = [
 		id: "react",
 		alt: "react",
 		src: "./Images/react.webp",
+	},
+	{
+		id: "reactRouter",
+		alt: "react router",
+		src: "./Images/reactRouter.png",
+	},
+	{
+		id: "express",
+		alt: "expressr",
+		src: "./Images/express.png",
+	},
+	{
+		id: "auth0",
+		alt: "auth0",
+		src: "./Images/auth0Logo.png",
+	},
+	{
+		id: "aws",
+		alt: "aws",
+		src: "./Images/aws.png",
+	},
+	{
+		id: "heroku",
+		alt: "heroku",
+		src: "./Images/heroku.png",
+	},
+	{
+		id: "netlify",
+		alt: "netlify",
+		src: "./Images/netlify.png",
 	},
 ];
 

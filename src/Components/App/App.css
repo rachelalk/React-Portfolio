@@ -83,27 +83,48 @@
 	text-align: center;
 }
 
-.techstack {
+.tech-stack {
 	display: flex;
+	flex-wrap: wrap;
+	width: 50vw;
+	height: auto;
 	flex-direction: row;
+	gap: 1%;
 }
 
 #nodejs {
 	max-height: 8vh;
-	padding-left: 20px;
-	padding-right: 15px;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-top:1%;
 }
 
 #jest,
 #cypress,
-#react {
+#react
+ {
 	max-height: 8vh;
-	padding-left: 15px;
+	padding-left: 1%;
+	margin-top:1%;
+}
+
+#typescript,
+#reactRouter {
+	max-height: 8vh;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top:1%;
 }
 
 #sql,
-#htmlcssjs {
+#htmlcssjs,
+#express,
+#auth0,
+#aws,
+#heroku,
+#netlify {
 	max-height: 8vh;
+	margin-top:1%;
 }
 
 /* || End of landing page main elements formatting */
