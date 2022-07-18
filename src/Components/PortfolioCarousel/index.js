@@ -42,8 +42,16 @@ const handleClick = () => {
 								</div>
 								<figcaption className="carousel-portfolio ">
 									<p className="portfolio-text">{object.text}</p>
-									<p className="github-portfolio">
-										<a href={object.link}>View GitHub Repo</a>
+									<p className="carousel-button">
+										<a target="_blank" href={object.link}>
+											View GitHub Repo
+										</a>
+									</p>
+
+									<p className="carousel-button">
+										<a target="_blank" href={object.deployedApp}>
+											View Deployed App
+										</a>
 									</p>
 								</figcaption>
 							</figure>

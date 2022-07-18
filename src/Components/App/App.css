@@ -173,17 +173,19 @@ Do not add margin to main area - contains footer */
 	object-fit: cover;
 }
 
-.github-portfolio,
-.github-portfolio a:link,
-.github-portfolio a:visited {
+.carousel-button,
+.carousel-button a:link,
+.carousel-button a:visited {
 	display: flex;
 	padding: 0.5vh;
 	border-radius: 4px;
 	width: 12vw;
 	justify-content: center;
+	text-align: center;
 	background-color: var(--button-background);
 	color: var(--button-text-color);
 	text-decoration: none;
+	margin: 2%;
 }
 
 .portfolio-text {

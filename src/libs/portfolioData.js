@@ -2,14 +2,25 @@ const portfolioData = [
 	{
 		heading: "Giraffe Support - Full stack app",
 		link: "https://github.com/rachelalk/Frontend---Giraffe-Support-Ticketing-System/blob/main/README.md",
+		deployedApp: "https://giraffe-support.netlify.app/",
 		id: "giraffeSupportImage",
 		src: "./Images/giraffeSupport.png",
 		alt: "Giraffe Support",
 		text: "Week 9 project. In a team of 4 we were given 4.5 days to solve aproblem that bootcampers face. We were to go through the whole UX/UI process, work in an agile way, build our MVP from scratch including frontend and backend and prepare a presentation in this time. We created a ticketing system to handle help requests.",
 	},
+		{
+		heading: "Weather API using Typescript",
+		link: "https://github.com/rachelalk/Weather-App-Typescript",
+		deployedApp: "https://panda-weather.netlify.app/",
+		id: "Weather",
+		src: "./Images/weatherAPI.png",
+		alt: "Weather API",
+		text: "Week 12 hackathon. After learning Typescript for only two days, we were tasked with using a weather API to create a react app, using Typescript. This was a real challenge as we were only just getting to grips with the language. Using an interface to define the types expected for all properties of an API response was particularly challenging.",
+	},
 	{
 		heading: "Authentication using Auth0",
 		link: "https://github.com/rachelalk/Auth0",
+		deployedApp: "https://fox-fix.netlify.app/",
 		id: "Auth0",
 		src: "./Images/Auth0.png",
 		alt: "Auth0 authentication",
@@ -18,6 +29,7 @@ const portfolioData = [
 	{
 		heading: "Cat API - React",
 		link: "https://github.com/rachelalk/Cats-API-with-React---Agile-working",
+		deployedApp: "https://soc-cat-collector.netlify.app/",
 		id: "catApiImage",
 		src: "./Images/CatAPI.png",
 		alt: "Cat API",
@@ -26,6 +38,7 @@ const portfolioData = [
 	{
 		heading: "Books API - React",
 		link: "https://github.com/rachelalk/Books-API-With-React",
+		deployedApp: "https://soc-books-api.netlify.app/",
 		id: "booksApiImage",
 		src: "./Images/booksAPI.png",
 		alt: "Books API",
@@ -34,6 +47,7 @@ const portfolioData = [
 	{
 		heading: "To Do List - React",
 		link: "https://github.com/rachelalk/React-To-Do-List",
+		deployedApp: "https://soc-to-do-list.netlify.app",
 		id: "toDoListImage",
 		src: "./Images/toDoList.png",
 		alt: "To do list",
@@ -42,6 +56,7 @@ const portfolioData = [
 	{
 		heading: "Personality Quiz - UseReducer",
 		link: "https://github.com/rachelalk/useReducer-Buffy-Personality-Quiz",
+		deployedApp: "https://buffy-quiz.netlify.app/",
 		id: "buffyPersonalityQuiz",
 		src: "./Images/buffy.png",
 		alt: "Buffy personality quiz",
