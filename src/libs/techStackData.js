@@ -65,6 +65,26 @@ const techStackData = [
 		alt: "netlify",
 		src: "./Images/netlify.png",
 	},
+	{
+		id: "git",
+		alt: "git",
+		src: "./Images/Git.png",
+	},
+	{
+		id: "github",
+		alt: "github",
+		src: "./Images/GitHub.png",
+	},
+	{
+		id: "figma",
+		alt: "figma",
+		src: "./Images/figma.png",
+	},
+	{
+		id: "miro",
+		alt: "miro",
+		src: "./Images/miro.jpeg",
+	},
 ];
 
 export default techStackData

@@ -32,7 +32,7 @@
 	width: 100%;
 	color: var(--main-text);
 	min-height: 100vh;
-	width: 100vw;
+
 }
 
 .coming-soon {
@@ -56,7 +56,7 @@
 .landingInfo {
 	display: flex;
 	font-size: 2.5vh;
-	width: 100vw;
+	width: 98vw;
 	height: 90%;
 	flex-direction: column;
 	margin-top: 80px;
@@ -102,7 +102,8 @@
 
 #jest,
 #cypress,
-#react {
+#react,
+#github {
 	max-height: 8vh;
 	padding-left: 1%;
 	margin-top: 1%;
@@ -122,7 +123,10 @@
 #auth0,
 #aws,
 #heroku,
-#netlify {
+#netlify,
+#git,
+#figma,
+#miro {
 	max-height: 8vh;
 	margin-top: 1%;
 }
