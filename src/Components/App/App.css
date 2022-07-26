@@ -70,7 +70,7 @@
 }
 
 #rachel-pic {
-	max-height: 10vw;
+	height: 10vw;
 	width: auto;
 	border-radius: 3px;
 	border: solid;
@@ -78,10 +78,13 @@
 	border-radius: 50%;
 }
 
+
+
 #landingP {
 	width: 35vw;
 	text-align: center;
 }
+
 
 .tech-stack {
 	display: flex;
@@ -129,6 +132,37 @@
 #miro {
 	max-height: 8vh;
 	margin-top: 1%;
+}
+
+@media screen and (max-width: 820px) {
+	#landingP {
+		width: 95vw;
+	}
+	#rachel-pic {
+		height: 20vh;
+	}
+	.tech-stack {
+		width: 95vw;
+	}
+	#sql,
+#htmlcssjs,
+#express,
+#auth0,
+#aws,
+#heroku,
+#netlify,
+#git,
+#figma,
+#miro,
+#typescript,
+#reactRouter,
+#jest,
+#cypress,
+#react,
+#github,
+#nodejs {
+	max-height: 4vh;
+}
 }
 
 /* || End of landing page main elements formatting */
@@ -179,7 +213,7 @@ Do not add margin to main area - contains footer */
 	display: flex;
 	padding: 0.5vh;
 	border-radius: 4px;
-	width: 12vw;
+	min-width: 12vw;
 	justify-content: center;
 	text-align: center;
 	background-color: var(--button-background);
@@ -205,7 +239,7 @@ Do not add margin to main area - contains footer */
 	text-align: center;
 	text-decoration: none;
 	color: var(--main-text);
-	font-size: 4vh;
+	font-size: 2.5vh;
 }
 
 .carousel-header {
@@ -223,6 +257,16 @@ Do not add margin to main area - contains footer */
 	font-size: 1.7vh;
 }
 
+@media screen and (max-width: 820px) {
+  .carousel-slide,
+  .carousel-portfolio, 
+  .swiper-container,
+  .carousel-header,
+  .cat-carousel-image {
+    width: 86vw;
+  }
+}
+
 /* || End of carousel in portfolio */
 
 /* || Start of image hover over component */
@@ -235,11 +279,7 @@ Do not add margin to main area - contains footer */
 	justify-content: space-evenly;
 }
 
-.hover-over-item {
-	display: flex;
-	width: 30vw;
-	flex-wrap: wrap;
-}
+
 
 figure {
 	display: flex;
@@ -263,7 +303,7 @@ figure {
 
 figure > img {
 	vertical-align: top;
-	max-width: 30vw;
+	width: 30vw;
 }
 
 figure figcaption {
@@ -342,6 +382,31 @@ figure:hover > img {
 	font-size: 2.1vh;
 }
 
+
+@media screen and (max-width: 820px) {
+	.experience-hover-over-container,
+	.experience-main-display,
+	.experience-text,
+	figure {
+		display: flex;
+		flex-direction: column;
+		width: 100vw;
+		font-size: 2vh;
+	}
+.interests-pic,
+figure > img {
+	width: 100%;
+	margin: 0px;
+	object-fit: cover;
+
+}
+.interests-container {
+	min-height: 0%;
+}
+
+	}
+
+
 /* || End of image hover over component */
 
 /* || Top Nav Bar */
@@ -408,12 +473,20 @@ figure:hover > img {
 	display: flex;
 	flex-direction: row;
 	background-color: var(--contactbar-background);
+	width: 100;
+	height: 70px;
+	justify-content: space-between;
+	bottom: 0;
+	/* z-index: 8; */
+	/* display: flex;
+	flex-direction: row;
+	background-color: var(--contactbar-background);
 	width: 100%;
 	height: 70px;
 	position: fixed;
 	bottom: 0;
 	justify-content: space-between;
-	z-index: 8;
+	z-index: 8; */
 }
 
 .footer {
@@ -424,7 +497,7 @@ figure:hover > img {
 	height: 70px;
 	justify-content: space-between;
 	bottom: 0;
-	z-index: 8;
+	/* z-index: 8; */
 }
 
 .bottom-left {
@@ -481,19 +554,22 @@ figure:hover > img {
 	font-size: 3vh;
 }
 
-#lily-image {
+#lily-image
+ {
 	max-height: 50vh;
 	width: auto;
+	object-fit: contain;
 }
 
 #lenny-image {
 	height: 50vh;
 	width: auto;
+	object-fit: contain;
 }
 
 .cat-content {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	padding: 2vw;
 	font-size: 3vh;
 }
@@ -514,4 +590,21 @@ figure:hover > img {
 	width: 90vw;
 }
 
+
+@media screen and (max-width: 820px) {
+	.cats-container,
+	.cat-content {
+		display: flex;
+		flex-direction: column;
+	}
+	#lenny-image,
+	#lily-image {
+		min-height: 20vh;
+		width: auto;
+		object-fit: contain;
+	}
+	.cat-info {
+		margin-left: 5vw;
+	}
+}
 /* || End of Cats page styling */

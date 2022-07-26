@@ -5,12 +5,12 @@ export default function Cats() {
 		<main>
 			<h1 className="heading-margin">Cats</h1>
 			<div className="cat-page">
-				<div className="cat-headings">
-					<h2 className="cat-heading">Lily</h2>
-					<h2 className="cat-heading">Lenny</h2>
-				</div>
+				{/* <div className="cat-headings">
+					
+				</div> */}
 				<div className="cats-container">
 					<div className="cat-content">
+						<h2 className="cat-heading">Lily</h2>
 						<img id="lily-image" alt="black cat" src="./Images/lily.jpeg" />
 						<div className="cat-info">
 							Age: 11<br></br> <br></br>
@@ -31,6 +31,7 @@ export default function Cats() {
 						</div>
 					</div>
 					<div className="cat-content">
+						<h2 className="cat-heading">Lenny</h2>
 						<img
 							id="lenny-image"
 							alt="grey and white cat"

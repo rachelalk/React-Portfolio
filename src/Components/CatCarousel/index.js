@@ -12,7 +12,15 @@ export default function CatCarousel({ array }) {
 		<Swiper
 			modules={[Navigation, Pagination, Scrollbar, A11y]}
 			spaceBetween={50}
-			slidesPerView={3}
+			breakpoints={{
+				820: {
+					// width: 768,
+					slidesPerView: 1,
+				},
+				821: {
+					slidesPerView: 3,
+				},
+			}}
 			navigation
 			pagination={{ clickable: true }}
 			scrollbar={{ draggable: true }}
@@ -22,10 +30,11 @@ export default function CatCarousel({ array }) {
 			{array.map((object) => (
 				<SwiperSlide>
 					<div classname="carousel-slide">
-							<img alt="carousel of cat images"
-								className="cat-carousel-image"
-								src={object.src}
-							/>
+						<img
+							alt="carousel of cat images"
+							className="cat-carousel-image"
+							src={object.src}
+						/>
 					</div>
 				</SwiperSlide>
 			))}

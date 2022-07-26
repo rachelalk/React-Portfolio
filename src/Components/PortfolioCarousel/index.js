@@ -18,7 +18,16 @@ const handleClick = () => {
 		<Swiper
 			modules={[Navigation, Pagination, Scrollbar, A11y]}
 			spaceBetween={50}
-			slidesPerView={3}
+			breakpoints={{
+				820: {
+					// width: 768,
+					slidesPerView: 1,
+				},
+				821: {
+					slidesPerView: 3,
+				}
+			}}
+
 			navigation
 			pagination={{ clickable: true }}
 			scrollbar={{ draggable: true }}

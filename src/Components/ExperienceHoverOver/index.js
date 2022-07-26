@@ -2,7 +2,7 @@ export default function ExperienceHoverOver({ array }) {
 	return (
 		<div className="experience-hover-over-container">
 			{array.map((object) => (
-				<div classname="experience-hover-over-item">
+				<div className="experience-hover-over-item">
 					<figure>
 						<div className="experience-main-display">
 							<h3>{object.years}</h3>
