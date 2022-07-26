@@ -4,10 +4,10 @@ import interestsData from "../../libs/interestsData";
 export default function Interests() {
 	return (
 		<main>
-		{/* <div className="interests-container"> */}
+		<div> 
 			<h1 className="heading-margin">Interests</h1>
 			<ImageHoverOver array={interestsData}></ImageHoverOver>
-			{/* </div> */}
+			 </div> 
 		</main>
 	);
 }
