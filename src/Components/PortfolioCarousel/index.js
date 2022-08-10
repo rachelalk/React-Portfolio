@@ -7,12 +7,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-
-
-export default function PortfolioCarousel({array}) {
-const handleClick = () => {
-	
-}
+export default function PortfolioCarousel({ array }) {
+	const handleClick = () => {};
 
 	return (
 		<Swiper
@@ -25,15 +21,53 @@ const handleClick = () => {
 				},
 				821: {
 					slidesPerView: 3,
-				}
+				},
 			}}
-
 			navigation
 			pagination={{ clickable: true }}
 			scrollbar={{ draggable: true }}
 			onSwiper={(swiper) => console.log(swiper)}
 			onSlideChange={() => console.log("slide change")}
 		>
+			<SwiperSlide>
+				<div classname="carousel-slide">
+					<div>
+						<figure className="carousel-portfolio ">
+							<div className="carousel-portfolio ">
+								<h2 className="carousel-header">
+									Couchbase Hackathon - Full Stack App
+								</h2>
+
+								<img
+									className="carousel-portfolio "
+									id="moorsFires"
+									src="./Images/moorsApp2.png"
+									alt="Moors Fires App"
+								/>
+							</div>
+							<figcaption className="carousel-portfolio ">
+								<p className="portfolio-text">
+									This app was made at the Couchbase in person hackathon in
+									Manchester where I worked in a team of 2, with a member of the
+									Couchbase team on hand to help. We created a full stack app in
+									a day, using the Couchbase database and latitude and longitude
+									from the user's browser. I am proud to say that we were chosen
+									as the winners of this hackathon! See the GitHub readme for
+									more details.
+								</p>
+
+								<a
+									className="carousel-button"
+									target="_blank"
+									href="https://github.com/rachelalk/Couchbase-hackathon"
+								>
+									<p className="carousel-button">View GitHub Repo</p>
+								</a>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</SwiperSlide>
 			{array.map((object) => (
 				<SwiperSlide>
 					<div classname="carousel-slide">
@@ -41,7 +75,7 @@ const handleClick = () => {
 							<figure className="carousel-portfolio ">
 								<div className="carousel-portfolio ">
 									<h2 className="carousel-header">{object.heading}</h2>
-									<h3>{object.role}</h3>
+
 									<img
 										className="carousel-portfolio "
 										id={object.id}
@@ -51,17 +85,21 @@ const handleClick = () => {
 								</div>
 								<figcaption className="carousel-portfolio ">
 									<p className="portfolio-text">{object.text}</p>
-									<p className="carousel-button">
-										<a target="_blank" href={object.link}>
-											View GitHub Repo
-										</a>
-									</p>
+									<a
+										className="carousel-button"
+										target="_blank"
+										href={object.link}
+									>
+										<p className="carousel-button">View GitHub Repo</p>
+									</a>
 
-									<p className="carousel-button">
-										<a target="_blank" href={object.deployedApp}>
-											View Deployed App
-										</a>
-									</p>
+									<a
+										className="carousel-button"
+										target="_blank"
+										href={object.deployedApp}
+									>
+										<p className="carousel-button">View Deployed App</p>
+									</a>
 								</figcaption>
 							</figure>
 						</div>
@@ -72,9 +110,6 @@ const handleClick = () => {
 		</Swiper>
 	);
 }
-
-
-
 
 // import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 

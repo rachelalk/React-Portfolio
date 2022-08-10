@@ -113,7 +113,9 @@
 }
 
 #typescript,
-#reactRouter {
+#reactRouter,
+#nextjs,
+#couchbase {
 	max-height: 8vh;
 	margin-left: 1%;
 	margin-right: 1%;

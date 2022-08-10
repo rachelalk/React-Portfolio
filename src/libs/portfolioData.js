@@ -1,6 +1,6 @@
 const portfolioData = [
 	{
-		heading: "Giraffe Support - Full stack app",
+		heading: "Giraffe Support - Full Stack App",
 		link: "https://github.com/rachelalk/Frontend---Giraffe-Support-Ticketing-System/blob/main/README.md",
 		deployedApp: "https://giraffe-support.netlify.app/",
 		id: "giraffeSupportImage",

@@ -41,9 +41,19 @@ const techStackData = [
 		src: "./Images/reactRouter.png",
 	},
 	{
+		id: "nextjs",
+		alt: "nextjs",
+		src: "./Images/nextjs.png",
+	},
+	{
 		id: "express",
-		alt: "expressr",
+		alt: "express",
 		src: "./Images/express.png",
+	},
+	{
+		id: "couchbase",
+		alt: "expressr",
+		src: "./Images/couchbase.png",
 	},
 	{
 		id: "auth0",
