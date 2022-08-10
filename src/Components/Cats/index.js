@@ -10,9 +10,12 @@ export default function Cats() {
 				</div> */}
 				<div className="cats-container">
 					<div className="cat-content">
-						<h2 className="cat-heading">Lily</h2>
-						<img id="lily-image" alt="black cat" src="./Images/lily.jpeg" />
+						<div className="cat-name-photo">
+							<h2 className="cat-heading">Lily</h2>
+							<img id="lily-image" alt="black cat" src="./Images/lily.jpeg" />
+						</div>
 						<div className="cat-info">
+							<div className="margin"></div>
 							Age: 11<br></br> <br></br>
 							Likes:
 							<ul>
@@ -31,13 +34,16 @@ export default function Cats() {
 						</div>
 					</div>
 					<div className="cat-content">
-						<h2 className="cat-heading">Lenny</h2>
-						<img
-							id="lenny-image"
-							alt="grey and white cat"
-							src="./Images/lenny.jpeg"
-						/>
+						<div className="cat-name-photo">
+							<h2 className="cat-heading">Lenny</h2>
+							<img
+								id="lenny-image"
+								alt="grey and white cat"
+								src="./Images/lenny.jpeg"
+							/>
+						</div>
 						<div className="cat-info">
+							<div className="margin"></div>
 							Age: 2<br></br> <br></br>
 							Likes:
 							<ul>

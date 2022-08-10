@@ -555,9 +555,23 @@ figure:hover > img {
 
 .cat-content {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	padding: 2vw;
 	font-size: 3vh;
+}
+
+.cat-name-photo {
+	display: flex;
+	flex-direction: column;
+}
+
+.cat-name-info {
+	display: flex;
+	flex-direction: row;
+}
+
+.margin {
+	height: 10%;
 }
 
 .cat-info {
@@ -591,6 +605,10 @@ figure:hover > img {
 	}
 	.cat-info {
 		margin-left: 5vw;
+	}
+	.cat-name-info {
+		display: flex;
+		flex-direction: column;
 	}
 }
 /* || End of Cats page styling */
