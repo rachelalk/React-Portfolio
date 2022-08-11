@@ -162,7 +162,9 @@
 #cypress,
 #react,
 #github,
-#nodejs {
+#nodejs,
+#couchbase,
+#nexjs {
 	max-height: 4vh;
 }
 }

@@ -92,7 +92,6 @@ export default function PortfolioCarousel({ array }) {
 									>
 										<p className="carousel-button">View GitHub Repo</p>
 									</a>
-
 									<a
 										className="carousel-button"
 										target="_blank"

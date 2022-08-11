@@ -27,7 +27,7 @@ const experienceData = [
 		years: "October 2013 - February 2014",
 		role: "Call Center Representative at Ticketline",
 		src: "./Images/ticketlineLogo.png",
-		text: "This was my initial position at Ticketline and I was promoted into Customer Services and made a Supervisor within a short time. Whilst in this role I answered customer calls and sold tickets to a range of events over the phone",
+		text: "This was my initial position at Ticketline before I was promoted into Customer Services and made a Supervisor within a short time. Whilst in this role I answered customer calls and sold tickets to a range of events over the phone",
 	},
 	{
 		years: "August 2011 - October 2013",
@@ -39,13 +39,13 @@ const experienceData = [
 		years: "November 2010 - March 2014",
 		role: "Front of House Staff at The Palace Theatre, Manchester",
 		src: "./Images/atgLogo.jpeg",
-		text: "Whilst working at the Palace Theatre my job would vary between shifts, sometimes I was selling merch in the foyer, sometimes I was manning the bar, either alone or with another member of staff depending on how busy that particular show was and other times I was stationed within the auditorium to assist customers finding their seats, deal with issues that arose whilse the show was on and ensure that everybody had a safe and enjoyable experience.",
+		text: "Whilst working at the Palace Theatre my job would vary between shifts, sometimes I was selling merch in the foyer, sometimes I was manning the bar, either alone or with another member of staff depending on how busy that particular show was. Other times, I was stationed within the auditorium to assist customers finding their seats, deal with issues that arose whilse the show was on and ensure that everybody had a safe and enjoyable experience.",
 	},
 	{
 		years: "July 2011 - September 2012",
 		role: "Volunteer at The Society For Abandoned Animals",
 		src: "./Images/saaLogo.png",
-		text: "Whilst at university, I volunteered at the Society for Abandoned Animals, working with the cats. This involved cleaning pens, feeding the cats, administering medication and socialisation. I assisted visitors and suggested cats that they might be interested in based off the information provided. I was also responsible for reporting any changes to each cat's behaviour and looked for signs of illness.",
+		text: "Whilst at university, I volunteered at the Society for Abandoned Animals working with the cats. This involved cleaning pens, feeding the cats, administering medication and socialisation. I assisted visitors and suggested cats that they might suit their lifestyles based off the information provided. I was also responsible for reporting any changes to each cat's behaviour and looked for signs of illness.",
 	},
 	{
 		years: "September 2010 - June 2013",

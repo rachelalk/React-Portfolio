@@ -1,5 +1,14 @@
 const portfolioData = [
 	{
+		heading: "Care-Full - Full Stack App",
+		link: "https://github.com/SchoolOfCode/final-project_front-end-team-con-cat-enate-room-7/blob/main/README-NEW.md",
+		deployedApp: "https://care-full.netlify.app/",
+		id: "careFullApp",
+		src: "./Images/care-full.png",
+		alt: "Giraffe Support",
+		text: "This was our final project at School of Code. In a group of 6, we set out to design and create a full stack app which would allow the user to better care for their pet. I worked on everything involved in the project, UX/UI, front end, back end, styling, auth0 and testing. This was a fantastic challenge, I have learnt so much throughout this project and I am incredibly proud of what we have achieved.",
+	},
+	{
 		heading: "Giraffe Support - Full Stack App",
 		link: "https://github.com/rachelalk/Frontend---Giraffe-Support-Ticketing-System/blob/main/README.md",
 		deployedApp: "https://giraffe-support.netlify.app/",
@@ -8,7 +17,7 @@ const portfolioData = [
 		alt: "Giraffe Support",
 		text: "Week 9 project. In a team of 4 we were given 4.5 days to solve aproblem that bootcampers face. We were to go through the whole UX/UI process, work in an agile way, build our MVP from scratch including frontend and backend and prepare a presentation in this time. We created a ticketing system to handle help requests.",
 	},
-		{
+	{
 		heading: "Weather API using Typescript",
 		link: "https://github.com/rachelalk/Weather-App-Typescript",
 		deployedApp: "https://panda-weather.netlify.app/",
@@ -64,4 +73,4 @@ const portfolioData = [
 	},
 ];
 
-export default portfolioData
+export default portfolioData;
