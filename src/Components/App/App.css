@@ -97,7 +97,7 @@
 }
 
 #nodejs {
-	max-height: 8vh;
+	max-height: 5vh;
 	padding-left: 1%;
 	padding-right: 1%;
 	margin-top: 1%;
@@ -107,7 +107,7 @@
 #cypress,
 #react,
 #github {
-	max-height: 8vh;
+	max-height: 5vh;
 	padding-left: 1%;
 	margin-top: 1%;
 }
@@ -116,7 +116,7 @@
 #reactRouter,
 #nextjs,
 #couchbase {
-	max-height: 8vh;
+	max-height: 5vh;
 	margin-left: 1%;
 	margin-right: 1%;
 	margin-top: 1%;
@@ -132,7 +132,7 @@
 #git,
 #figma,
 #miro {
-	max-height: 8vh;
+	max-height: 5vh;
 	margin-top: 1%;
 }
 
@@ -164,7 +164,7 @@
 #github,
 #nodejs,
 #couchbase,
-#nexjs {
+#nextjs {
 	max-height: 4vh;
 }
 }
