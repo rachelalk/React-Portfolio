@@ -6,12 +6,19 @@ export default function RachelInfo() {
 			<h1 className="heading">Rachel Alker</h1>
 			<p id="landingP">
 				Hello, I’m Rachel! 👋🏻
-				<br></br> I’m based in Manchester and am currently a student at the
-				School of Code. <br></br>
-				<br></br>Before enrolling at the School of Code I was a primary school
-				teacher. I'm now looking forward to making use of my transferrable
-				skills and everything that I have learnt during my time at the School of
-				Code to secure my first role in tech.<br></br>
+				<br></br> I'm based in Manchester and have just graduated from the
+				School of Code and am now looking to secure my first role in tech.{" "}
+				<br></br>
+				<br></br>Before beginning my journey into tech I was a primary school
+				teacher so I have more transferrable skills than you could count, some
+				of the most important being patience, an enthusiasm for learning and the
+				ability to work with pretty much anybody!<br></br>
+				<br></br>I have learnt an incredible amount since starting the bootcamp,
+				sometimes it's hard to believe that I have only been doing this a few
+				months when I stop to look at what I have created, both in a team and
+				alone. I look forward to continuing to learn and develop throughout my
+				career.
+				<br></br>
 				<br></br>
 				Please feel free to contact me via email or connect with me on Twitter,
 				GitHub or LinkedIn.

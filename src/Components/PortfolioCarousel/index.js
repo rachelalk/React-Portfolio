@@ -41,7 +41,7 @@ export default function PortfolioCarousel({ array }) {
 								<img
 									className="carousel-portfolio "
 									id="moorsFires"
-									src="./Images/moorsApp2.png"
+									src="./Images/moorsApp3.png"
 									alt="Moors Fires App"
 								/>
 							</div>
