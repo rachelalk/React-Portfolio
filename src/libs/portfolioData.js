@@ -27,6 +27,15 @@ const portfolioData = [
 		text: "Week 12 hackathon. After learning Typescript for only two days, we were tasked with using a weather API to create a react app, using Typescript. This was a real challenge as we were only just getting to grips with the language. Using an interface to define the types expected for all properties of an API response was particularly challenging.",
 	},
 	{
+		heading: "Restaurant API Hackathon",
+		link: "https://github.com/rachelalk/restaurant-hackathon",
+		deployedApp: "https://thai-takeout.netlify.app/",
+		id: "restaurantAPI",
+		src: "./Images/restaurant_api.png",
+		alt: "restaurant",
+		text: "Post bootcamp hackathon. In a team of 3 we were tasked with creating a restaurant app using the Spoonacular API. The app had a number of requirements including producing a minimum of 2 lo-fi wireframes, some form of testing, we opted for Cypress end to end, and an app consisting of 3 pages: a homepage, menu page including modals about the food and a basket which can only be accessed with a minimum of 2 items selected.",
+	},
+	{
 		heading: "Authentication using Auth0",
 		link: "https://github.com/rachelalk/Auth0",
 		deployedApp: "https://fox-fix.netlify.app/",
